@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Battle of the Plastics</title>
+  <link rel="stylesheet" href="game.css">
+  <link href="https://fonts.googleapis.com/css?family=Armata|Electrolize|Neucha|Shadows+Into+Light+Two|Unica+One" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+  <script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+
+  <div id="background">
+    <img src="images/soccerfield.jpg" class="stretch" alt="Soccer field" />
+  </div>
+
+  <div class="header-cont">
+    <div class="header"></div>
+    <div class="title">The Battle of the Plastics</div>
+  </div>
+
+
+
+    <div class="directions">
+      <div class="info" id="cadyinfo">
+        <p>Tap <span>"z"</span> to help<br> <span>Cady</span> catch Aaron</p>
+      </div>
+
+      <div class="info" id="reginainfo">
+        <p>Tap the <span>"&rarr;"</span> to help <span>Regina</span> catch Aaron</p>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="box" id="cady">
+      <img src="images/cady.png" alt="Cady Heron">
+    </div>
+    <div class="box" id="aaron">
+      <img src="images/aaron.png" alt="Aaron Samuels">
+    </div>
+    <div class="box" id="regina">
+      <img src="images/regina.png" alt="Regina George">
+    </div>
+
+    <div class="box, win" id="winner1">
+      <img src="images/cadywins.jpg" alt="Racer One Wins!">
+    </div>
+    <div class="box, win" id="winner2">
+      <img src="images/reginawins.jpg" alt="Regina George Wins!">
+    </div>
+
+    <div class="alertBox">
+      <p></p>
+    </div>
+
+    <audio autoplay>
+      <source src="images/fetch.mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+
+</body>
+</html>

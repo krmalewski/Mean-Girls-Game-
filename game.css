@@ -1,0 +1,194 @@
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.header-cont {
+  position:fixed;
+  height: 110px;
+  width: 100%;
+  top: 0px;
+}
+
+.header{
+   height: 100%;
+   margin: 0;
+   background-color: #000000;
+   background-image: url("images/scoreboard.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.7;
+}
+
+.title {
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 50px;
+  position: fixed;
+  top: 110px;
+}
+
+.directions {
+  position: fixed;
+  top: 170px;
+  width: 100%;
+}
+
+.info {
+  height: 63px;
+  width: 180px;
+  background-color: #ff4d94;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px 40px 5px 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+p {
+  margin: 0 auto;
+  padding: 0;
+}
+
+span {
+  color: black;
+}
+
+#cadyinfo {
+  margin-left: 32%;
+
+}
+
+.container {
+  position: fixed;
+  top: 150px;
+}
+
+.box {
+  height: 200px;
+  width: 100px;
+}
+
+
+.box img {
+  height: 100%;
+}
+
+#cady {
+  margin-top: 5%;
+  position: fixed;
+}
+
+#aaron {
+  position: fixed;
+  margin-top: 15%;
+}
+
+#regina {
+  position: fixed;
+  margin-top: 25%;
+}
+
+#winner1 {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  border: solid white 2px;
+}
+
+#winner2 {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  border: solid white 2px;
+}
+
+.alertBox {
+  height: 90px;
+  width: 500px;
+  background-color: #e6005c;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Neucha', cursive;
+  font-size: 30px;
+  padding: 15px 5px 5px 5px;
+  opacity: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  position: fixed;
+  top: 40px;
+  left: 30%;
+  border: solid white 2px;
+}
+
+
+@media (max-width: 900px) {
+  #cadyinfo {
+    margin-left: 20%;
+  }
+
+  .container {
+    top: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 25px;
+    top: 40px;
+    padding: 15px 0 15px 0;
+  }
+
+  .header-cont {
+    height: 100px;
+  }
+
+  .directions {
+    top: 105px;
+  }
+
+  .info {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  #regina {
+    margin-top: 50%;
+  }
+
+  .win img{
+    max-width: 200px;
+    max-height: 300px;
+  }
+
+  .alertBox {
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    left: 100px;
+    line-height: 25px;
+  }
+}
+
+
+
+
